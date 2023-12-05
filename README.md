@@ -25,11 +25,11 @@ Visually Separate the Network by placing (2) different colors for each switch/si
 <br />
 <br />
 Conduct subnetting and obtain least amount of IPs possible, while still being able to assign an IP for each device <br/>
-<img src="https://i.imgur.com/feXFWBp.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Ll2CaIl.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Layout the IPs and see how many are available and what needs to be reserved:  <br/>
+<img src="https://i.imgur.com/Q05l9Xx.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
