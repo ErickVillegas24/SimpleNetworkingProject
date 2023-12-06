@@ -32,12 +32,41 @@ Layout the IPs and see how many are available and what needs to be reserved:  <b
 <img src="https://i.imgur.com/Q05l9Xx.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Place IPs in their respective locations:  <br/>
+<p align="center">
+- Accounts = 192.168.40.1 - 8 (Gig0/0)
+<br />
+- Delivery = 192.168.40.9 - 15 (Gig0/1)
+<img src="https://i.imgur.com/G4OqXSq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Select the Router and the "CLI" or Command Line Interface Tab and enter the following to enable and configure the router:  <br/>
+
+- <b>"En"<b>
+- "Config T"
+- "Int Range Gig 0/0-1"
+- "No Shutdown"
+- "Do Wr"
+<p align="center">
+<img src="https://i.imgur.com/nztsvHZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Once the router displays the green arrows stating it's in an "UP" state, we need to assign each side their IP ranges. The following information will be inputted:  <br/>
+
+- <b>"exit"<b>
+- "int gig 0/0"
+- "ip address 192.168.40.1 255.255.255.248" (This will be assigned to the "Accounts" section)
+- "int gig 0/1"
+- "ip address 192.168.40.9 255.255.255.248" (This will be assigned to the "Delivery" section)
+- "do wr"
+<p align="center">
+<img src="https://i.imgur.com/MKjCfSM.png" height="80%" width="80%"
+<br />
+<br />
+<br />
+Pending.....
+<p align="center">
+- <b> WHATS NEXT: Will be assigning IPs to each device and conduct "Ping" within the Command Prompt to confirm Network travel across different subnets. </b>
 </p>
 
 <!--
